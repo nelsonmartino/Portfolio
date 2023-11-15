@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8" />
+    <meta name="author" content="Nelson Martino" />
+    <meta name="description" content="Portfolio Nelson Martino" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, React, NodeJs, Express, PosrgreSQL"
+    />
+    <meta name="viewport" content="width=devide-width, initial-scale=1" />
+    <!-- Titulo -->
+    <title>Nelson Martino | Portfolio</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/code-icon.webp" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-toggler"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="images/code-icon.webp" width="50" alt="Logo" />
+          </a>
+          <ul
+            class="navbar-nav d-flex justifiy-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about-me"
+                >Sobre mí</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero align-items-stretch">
+      <div
+        class="hero-principal d-flex flex-column justifiy-content-center align-items-center"
+      >
+        <img
+          class="hero-profile-picture rounded-circle border border-4 border-dark"
+          src="images/1655571455311-removebg-preview.png"
+          alt="Profile Picture"
+        />
+        <h1>Hola, soy Nelson</h1>
+        <h2>Desarrollador Full Stack</h2>
+      </div>
+      <div class="hero-inf">
+        <img
+          class="hero-inf-img img-fluid"
+          src="images/hero-inferior.svg"
+          alt="Technologies logo"
+        />
+      </div>
+    </section>
+    <!-- About me -->
+    <section id="about-me" class="about-me dark-section">
+      <div class="cont">
+        <h2 class="title-section">Sobre mí</h2>
+        <p class="text-section">
+          Hola 👋 Soy Nelson! <br />
+          Soy un apasionado de la programación con conocimientos orientados al
+          desarrollo web. Disfruto de aprender en forma permanente y aplicar mis
+          conocimientos para enfrentar nuevos desafíos. He trabajado en
+          proyectos individuales y grupales, con metodologías scrum que me
+          ayudaron a mejorar mis habilidades blandas como la capacidad para el
+          trabajo en equipo, orientación a objetivos, y comunicación efectiva.
+        </p>
+      </div>
+    </section>
+    <!-- Experience -->
+    <section id="experience" class="experience white-section">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Web develop -->
+          <div class="column col-12 col-md-6">
+            <i class="bi bi-laptop"></i>
+            <p class="title-experience">Desarrollo Web</p>
+            <p>
+              Soy Full Stack Developer con formación y manejo de tecnologías
+              orientadas al desarrollo web como React, Redux, HTML, CSS, NodeJS,
+              Express y librerías para el manejo de bases de datos relacionales
+              y no relacionales.
+            </p>
+            <div class="badges-container">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React</span>
+              <span class="badge text-bg-primary">NodeJs</span>
+              <span class="badge text-bg-primary">Express</span>
+            </div>
+          </div>
+          <div class="column col-12 col-md-6">
+            <i class="bi bi-laptop"></i>
+            <p class="title-experience">Estudiante</p>
+            <p>
+              Aprendo en forma permanente obteniendo información de diferentes
+              fuentes. Completé la carrera de desarrollo Full Stack en el
+              bootcamp SoyHenry. Junto con FreeCodeCamp, SoyHenry es una de mis
+              principales fuentes de capacitación continua.
+            </p>
+            <div class="badges-container">
+              <span class="badge text-bg-primary">Henry</span>
+              <span class="badge text-bg-primary">FreeCodeCamp</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Projects -->
+    <section id="projects" class="projects white-section d-flex flex-column">
+      <h2 class="title-section black-text">Mis Proyectos</h2>
+      <h3 class="description-section">
+        Estos son algunos de los proyectos en los que estuve trabajando
+        recientemente...
+      </h3>
+      <!-- Project Galery -->
+      <div class="container text-center projects-container">
+        <div class="row">
+          <!-- Ge3kHub -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="project">
+              <img src="images/Ge3kHub.jpg" alt="GeekHub" />
+              <div class="overlay">
+                <p>Ge3kHub Shop</p>
+                <div class="icons-container">
+                  <a
+                    href="https://github.com/Guardianes-de-la-Tukineta"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://ge3khub-shop-p9rv.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Videogames -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="project">
+              <img src="images/VideoGames.jpg" alt="Videogames" />
+              <div class="overlay">
+                <p>Videogames App</p>
+                <div class="icons-container">
+                  <a
+                    href="https://github.com/nelsonmartino/PI-Videogames"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- RickyMorty -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="project">
+              <img src="images/RickyMorty.jpg" alt="Rick and Morty App" />
+              <div class="overlay">
+                <p>Rick & Morty App</p>
+                <div class="icons-container">
+                  <a
+                    href="https://github.com/nelsonmartino/rick_and_morty"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        href="https://github.com/nelsonmartino"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button type="button" class="btn btn-info">
+          Más Proyectos <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+    <!-- Articles -->
+    <!-- <section class="articles justifiy-content-start">
+      <h2 class="title-section black-text">Articulos</h2>
+      <div class="card">
+        <div class="card-header">Más recientes</div>
+        <ul class="list-group list-group-flush">
+          <a
+            href="https://github.com/nelsonmartino"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li class="list-group-item">Articulo 1</li>
+          </a>
+          <a
+            href="https://github.com/nelsonmartino"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li class="list-group-item">Articulo 2</li>
+          </a>
+          <a
+            href="https://github.com/nelsonmartino"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li class="list-group-item">Articulo 3</li>
+          </a>
+          <a
+            href="https://github.com/nelsonmartino"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li class="list-group-item">Articulo 4</li>
+          </a>
+          <a
+            href="https://github.com/nelsonmartino"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li class="list-group-item">Articulo 5</li>
+          </a>
+          <a
+            href="https://github.com/nelsonmartino"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li class="list-group-item">Articulo 6</li>
+          </a>
+        </ul>
+      </div>
+      <a
+        href="https://linkedin.com/nelsonmartino"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button type="button" class="btn btn-info">
+          Más Artículos <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section> -->
+    <!-- Testimonies
+    <section id="testimonies" class="testimonies white-section">
+      <h2 class="title-section">Testiminios</h2>
+      <h3 class="description-section">
+        Estos son algunos testimonios de clientes...
+      </h3>
+      Carousel
+      <div id="testimonies-carousel" class="carousel carousel-dark slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img
+                class="testimony-image rounded-circle"
+                src="images/Ge3kHub.jpg"
+                alt="cliente 1"
+              />
+              <p class="testimony-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                vitae posuere orci, nec tincidunt sem. Nulla sodales viverra
+                condimentum. Pellentesque a neque erat. Duis sed est quis dui
+                aliquam porta et sed felis.
+              </p>
+              <div class="testimony-info">
+                <p class="client">Carlos</p>
+                <p class="position">Product Owner</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img
+                class="testimony-image rounded-circle"
+                src="images/Ge3kHub.jpg"
+                alt="cliente 1"
+              />
+              <p class="testimony-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                vitae posuere orci, nec tincidunt sem. Nulla sodales viverra
+                condimentum. Pellentesque a neque erat. Duis sed est quis dui
+                aliquam porta et sed felis.
+              </p>
+              <div class="testimony-info">
+                <p class="client">Carlos</p>
+                <p class="position">Product Owner</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img
+                class="testimony-image rounded-circle"
+                src="images/Ge3kHub.jpg"
+                alt="cliente 1"
+              />
+              <p class="testimony-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                vitae posuere orci, nec tincidunt sem. Nulla sodales viverra
+                condimentum. Pellentesque a neque erat. Duis sed est quis dui
+                aliquam porta et sed felis.
+              </p>
+              <div class="testimony-info">
+                <p class="client">Carlos</p>
+                <p class="position">Product Owner</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testimonies-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testimonies-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section> -->
+
+    <!-- Contact -->
+
+    <section id="contact" class="contact dark-section">
+      <div class="container">
+        <div
+          class="container text-center rectangle d-flex justifiy-content-evenly"
+        >
+          <div class="row">
+            <div class="col-12 col-md-4 title-section">Hablemos!</div>
+            <div class="col-12 col-md-4 description">
+              Contactame y hablemos de tu proyecto de desarrollo web
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:nelsonmartino@gmail.com">
+                <button type="button">
+                  Contacto
+                  <i class="bi bi-envelope-at-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer
+      class="dark-section d-flex flex-column align-items-center justifiy-content-center"
+    >
+      <img
+        class="footer-logo"
+        src="images/code-icon.webp"
+        alt="Portfolio logo"
+      />
+      <p class="footer-text text-center">
+        Desarrollo ideas y aprendo en el camino.<br />Te invito a que me
+        compartas las tuyas
+      </p>
+      <div
+        class="social-media-icons d-flex flex-wrap align-items-center justifiy-content-center"
+      >
+        <a
+          href="https://github.com/nelsonmartino"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-github"></i>
+        </a>
+        <a
+          href="https://linkedin.com/nelsonmartino"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a
+          href="mailto:nelsonmartino@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-envelope-at"></i>
+        </a>
+      </div>
+      <div class="copyright">Creado por Nelson Martino (2023) &#169;</div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
